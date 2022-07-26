@@ -1,0 +1,41 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fff;
+}
+
+section {
+  background-color: #fff;
+  padding-top: 5rem;
+}
+
+#about {
+  background-color: #6308b9 !important;
+}
+
+#projects {
+  background-color: #6308b9;
+}
+
+.color-text {
+  color: aliceblue;
+}
+
+.color-text2 {
+  color: #6308b9;
+}
+
+.btn-ungu {
+  color: #fff;
+  background-color: #6308b9;
+}
+
+footer {
+  background-color: #6308b9 !important;
+}
+.text-decor {
+  text-decoration: none;
+}

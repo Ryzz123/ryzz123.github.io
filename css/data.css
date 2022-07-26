@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.skills_section {
+  width: 100%;
+  height: 100vh;
+  padding: 0px 13%;
+  background-color: rgba(255, 255, 255, 0.082);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.skills_head {
+  width: 100%;
+  margin-bottom: 100px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.skills_head h2 {
+  font-size: 30px;
+  margin-bottom: -5px;
+}
+.skills_head h2 span {
+  color: #5d0ab0;
+}
+.skills_main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.skill_bar .info p:nth-child(2) {
+  font-weight: 500;
+}
+.skill_bar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 25px;
+  margin-top: 5px;
+  position: relative;
+}
+.skill_bar .bar span {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #8311b0;
+  border-radius: 25px;
+}
+.skill_bar .bar .html {
+  width: 60%;
+  animation: html 2s;
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.skill_bar .bar .css {
+  width: 45%;
+  animation: css 2s;
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+.skill_bar .bar .sass {
+  width: 55%;
+  animation: sass 2s;
+}
+@keyframes sass {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+.skill_bar .bar .js {
+  width: 45%;
+  animation: css 2s;
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+.skill_bar .bar .react {
+  width: 45%;
+  animation: react 2s;
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+.skill_bar .bar .node {
+  width: 20%;
+  animation: node 2s;
+}
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+.skill_bar .bar .express {
+  width: 65%;
+  animation: express 2s;
+}
+@keyframes express {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+.skill_bar .bar .mongo {
+  width: 60%;
+  animation: mongo 2s;
+}
+@keyframes mongo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
