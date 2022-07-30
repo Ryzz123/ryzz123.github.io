@@ -12,6 +12,10 @@ section {
   padding-top: 5rem;
 }
 
+#konten {
+  padding-top: 4rem;
+}
+
 #about {
   background-color: #6308b9 !important;
 }
@@ -38,4 +42,9 @@ footer {
 }
 .text-decor {
   text-decoration: none;
+}
+
+span {
+  color: #6308b9;
+  font-weight: 500;
 }
