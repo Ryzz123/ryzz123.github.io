@@ -1,6 +1,6 @@
-body {
+/* body {
   min-height: 3000px;
-}
+} */
 
 .jumbotron {
   padding-top: 6rem;
@@ -40,6 +40,11 @@ section {
 footer {
   background-color: #6308b9 !important;
 }
+
+.bg-footer {
+  background-color: #fff !important;
+}
+
 .text-decor {
   text-decoration: none;
 }
@@ -47,4 +52,11 @@ footer {
 span {
   color: #6308b9;
   font-weight: 500;
+}
+#socialmedia {
+  background-color: #6308b9;
+}
+
+.instagram {
+  width: 120px;
 }
